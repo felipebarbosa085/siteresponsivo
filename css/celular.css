@@ -1,150 +1,125 @@
-    padding-bottom: 10px;@charset "UTF-8";
+@charset "UTF-8";
 
 * {
-    margin:0px;
-    padding:0px;
-    border:0px;
+margin: 0px;
+padding: 0px;
+border: 0px;
 }
 
 body {
-    width: 100%;
-    font-family: Verdana, sans-serif;
-    font-size: 2.5rem;
-    color: #333;
-    background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom;
+width: 100%;
+font-family: Verdana,Geneva, sans-serif;
+font-size:2.5rem;
+color: #333;
+background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom;
 }
 
 h1 {
-    font-size: 4rem;
-      padding-bottom: 1.5rem 0rem 2rem 0rem;
-
+font-size: 4rem;
+padding: 1.5rem 0rem 2rem 0rem;
 }
 
-h2: {
-    font-size: 4rem;
-    padding-bottom: 1.5rem 0rem 2rem 0rem;
+h1 {
+font-size: 3rem;
+padding: 1rem 0rem 1.5rem 0rem;
 }
 
-p {
-    margin: 0rem 0rem 2rem 0rem;
-    line-height: 1.5rem; /* espacamento entre linhas */
 
+p{
+margin: 0rem 0rem 2rem 0rem;
+line-height: 4rem;
 }
+
 
 div#interface{
-   max-width:900px;
-   min-width:300px:
-    padding: 20px; /* reloginho */
-    background-color: rgba(255,255,255,0.90);
-    margin: auto;
+max-width: 900px;
+min-width: 300px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.90);
+margin: auto;
 }
 
-aside#logo-menu {
-    width: 100%;
+aside#logo-menu{
+width:100%;
 }
 
 header{
-    width: 100%;
-    text-align: center;
-    background-color: #fff;
+width; 100%;
+text-align: center;
+background-color: #fff;
 }
-
-
 header img{
-    margin: 12px 0px 10px 0px;
-    width: 80%;
+margin: 12px 0px 10px 0px;
+width: 80%;
 }
 
-header, section article,section.imagem, section {
-    margin: 0px 0px 15px 0px;
 
+header, section article, section .imagem, section {
+margin: 0px 0px 15px 0px;
 }
 
 nav ul li {
-    list-style: none;
-    line-height: 4rem;
-    border-bottom: 0,2rem solid #cecece;
-
+list-style: none;
+line-height: 4rem;
+border-bottom: 0.2rem solid #ccc;
 }
 
-nav ul li a {
-    padding: 2rem 0rem 2rem 2rem;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    font-size: 2.3rem;
-    transition: all 0.3s;
+nav ul li a{
+padding: 2rem 0rem 2rem 2rem;
+background-color: #333;
+color: #fff;
+text-decoration: none;
+display: block;
+font-size: 2.3rem;
+transition: all 0.3s;
 }
 
-nav ul li a:hover {
-    color: #333;
-    background-color: #cecece;
-    text-indent: 4rem;
-
+nav ul li a:hover{
+color: #333;
+background-color: #cecece;
+text-indent: 4rem;
 }
 
 section {
-    float: right;
-    width: 700px;
+width: 100%;
 }
-article#texto {
-    width: 380px;
-    float: left;
-}
-article#artigo-interno{
-    width: 100%;
-    float: left;
+
+article#texto, article#artigo-interno {
+width: 100%;             /* , mais de uma coisa , espaço quando esta dentro do outro*/
 }
 
 aside#imagens {
-    width: 300px;
-    float: right;
-
+width: 100%;
 }
 
-.imagem {
-    width: 300px;
+
+.imagem{
+width: 70%;
 }
 
-footer {
-    clear: both; /* limpa o efeito dos floats anteriores*/
-    width: 100%;
-    line-height: 50px;
-    text-align: right;
-    border-top: 1px solid #333;
-}
-footer a{
-    color: #000;
-    text-decoration: none;
-    font-size: 10pt;
-    font-style: italic;
-}
+
 .video{
-    width: 560px;
-    height: 315px;
+width: 784px;
+height: 441px;
 }
 
 .mapa{
-   width: 700px;
-   height: 450px;
+width: 800px;
+height: 1000px;
+}
+
+footer{
+                    /*limpa os float anteriores*/
+width: 100%;
+line-height: 50px;
+text-align: right;
+border-top: 1px solid #333;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer a{
+color: #000;
+text-decoration: none;
+font-size: 1.7rem;
+font-style: italic;
+}
